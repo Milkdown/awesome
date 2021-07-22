@@ -4,7 +4,6 @@
 ## Official Plugins
 
 Milkdown provides the following official plugins:
-
 -   [@milkdown/preset-commonmark](https://www.npmjs.com/package/@milkdown/preset-commonmark)
 
     Add [commonmark](https://commonmark.org/) syntax support.
@@ -16,6 +15,14 @@ Milkdown provides the following official plugins:
 -   [@milkdown/plugin-history](https://www.npmjs.com/package/@milkdown/plugin-history)
 
     Add undo & redo support.
+
+-   [@milkdown/plugin-cursor](https://www.npmjs.com/package/@milkdown/plugin-cursor)
+
+    Add drop & gap cursor.
+
+-   [@milkdown/plugin-listener](https://www.npmjs.com/package/@milkdown/plugin-listener)
+
+    Add listener support.
 
 -   [@milkdown/plugin-table](https://www.npmjs.com/package/@milkdown/plugin-table)
 
