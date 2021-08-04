@@ -51,3 +51,7 @@ Milkdown provides the following official plugins:
 -   [@milkdown/plugin-slash](https://www.npmjs.com/package/@milkdown/plugin-slash)
 
     Add slash commands support.
+    
+-   [@milkdown/plugin-emoji](https://www.npmjs.com/package/@milkdown/plugin-emoji)
+
+    Add emoji support.
