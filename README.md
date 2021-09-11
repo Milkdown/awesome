@@ -55,3 +55,9 @@ Milkdown provides the following official plugins:
 -   [@milkdown/plugin-emoji](https://www.npmjs.com/package/@milkdown/plugin-emoji)
 
     Add emoji support.
+
+## Community Plugins
+
+-   [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki)
+
+    Add [shiki](https://shiki.matsu.io/) support for code block highlight.
