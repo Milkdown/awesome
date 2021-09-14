@@ -28,4 +28,5 @@ Milkdown provides the following official plugins:
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
+
     Use milkdown as markdown editor of VSCode.
