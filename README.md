@@ -46,6 +46,10 @@ Milkdown provides the following official plugins:
 
     Use milkdown as editor of markdown files.
 
--   [https://github.com/Saul-Mirone/vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
+-   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
 
     A magical vite plugin that helps you to generate and manage documentation website.
+
+-   [Howdz Dashboard](https://github.com/leon-kfd/Dashboard)
+
+    Custom your personal browser start page from some configurable components.
