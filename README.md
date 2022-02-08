@@ -45,3 +45,7 @@ Milkdown provides the following official plugins:
 -   [tagspaces](https://www.tagspaces.org/)
 
     Use milkdown as editor of markdown files.
+
+-   [https://github.com/Saul-Mirone/vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
+
+    A magical vite plugin that helps you to generate and manage documentation website.
