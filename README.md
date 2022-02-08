@@ -37,6 +37,10 @@ Milkdown provides the following official plugins:
 -   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
 
     Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
+    
+-   [markdown-visual](https://github.com/standardnotes/markdown-visual)
+
+    Use milkdown as editor of [Standard Notes](https://standardnotes.com/), it's made by the official of standardnotes.
 
 -   [tagspaces](https://www.tagspaces.org/)
 
