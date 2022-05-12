@@ -13,7 +13,6 @@ Milkdown provides the following official plugins:
 | [@milkdown/plugin-cursor](https://www.npmjs.com/package/@milkdown/plugin-cursor)               | Add drop & gap cursor                                                  |
 | [@milkdown/plugin-listener](https://www.npmjs.com/package/@milkdown/plugin-listener)           | Add listener support                                                   |
 | [@milkdown/plugin-collaborative](https://www.npmjs.com/package/@milkdown/plugin-collaborative) | Add collaborative editing support                                      |
-| [@milkdown/plugin-table](https://www.npmjs.com/package/@milkdown/plugin-table)                 | Add table syntax support (already included in gfm)                     |
 | [@milkdown/plugin-prism](https://www.npmjs.com/package/@milkdown/plugin-prism)                 | Add [prism](https://prismjs.com/) support for code block highlight     |
 | [@milkdown/plugin-math](https://www.npmjs.com/package/@milkdown/plugin-math)                   | Add [LaTeX](https://en.wikipedia.org/wiki/LaTeX) support for math      |
 | [@milkdown/plugin-tooltip](https://www.npmjs.com/package/@milkdown/plugin-tooltip)             | Add selected tooltip for text                                          |
