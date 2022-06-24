@@ -52,3 +52,7 @@ Milkdown provides the following official plugins:
 -   [Howdz Dashboard](https://github.com/leon-kfd/Dashboard)
 
     Custom your personal browser start page from some configurable components.
+    
+-   [doclea](https://github.com/FalkZ/doclea)
+
+    Online doc editor.
