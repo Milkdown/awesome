@@ -27,6 +27,10 @@ Milkdown provides the following official plugins:
 -   [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki)
 
     Add [shiki](https://shiki.matsu.io/) support for code block highlight.
+    
+-   [@star-dancer/milkdown](https://www.npmjs.com/package/@star-dancer/milkdown)
+
+    Angular integration for milkdown.
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
