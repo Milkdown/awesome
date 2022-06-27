@@ -33,11 +33,7 @@ Milkdown provides the following official plugins:
 
     Use milkdown as markdown editor of VSCode.
     
--   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
-
-    Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
-    
--   [markdown-visual](https://github.com/standardnotes/markdown-visual)
+-   [standardnotes](https://github.com/standardnotes/app)
 
     Use milkdown as editor of [Standard Notes](https://standardnotes.com/), it's made by the official of standardnotes.
 
@@ -56,3 +52,7 @@ Milkdown provides the following official plugins:
 -   [Doclea](https://github.com/FalkZ/doclea)
 
     Online doc editor.
+    
+-   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
+
+    Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
