@@ -32,6 +32,10 @@ Milkdown provides the following official plugins:
 
     Angular integration for milkdown.
 
+-   [@ezone-devops/directive-fallback](https://www.npmjs.com/package/@ezone-devops/directive-fallback)
+
+    Render all directive as text to avoid parse error when use remark-directive.
+
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
 
