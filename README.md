@@ -53,6 +53,10 @@ Milkdown provides the following official plugins:
 
     A brand new e-reader to better study and digest your books.
 
+-   [nayu](https://nayu.xyz/)
+
+    A web based note-taking tool.
+
 -   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
 
     A magical vite plugin that helps you to generate and manage documentation website.
