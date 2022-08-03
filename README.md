@@ -70,6 +70,8 @@ Milkdown provides the following official plugins:
     Online doc editor.
     
 -   [ezone](https://ezone.work/)
+
+    一站式云原生企业研发协同与效能平台.
     
 -   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
 
