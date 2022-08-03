@@ -48,6 +48,10 @@ Milkdown provides the following official plugins:
 -   [tagspaces](https://www.tagspaces.org/)
 
     Use milkdown as editor of markdown files.
+    
+-   [margin note](https://www.marginnote.com/)
+
+    A brand new e-reader to better study and digest your books.
 
 -   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
 
