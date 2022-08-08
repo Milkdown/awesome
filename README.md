@@ -35,6 +35,10 @@ Milkdown provides the following official plugins:
 -   [@ezone-devops/milkdown-plugin-directive-fallback](https://www.npmjs.com/package/@ezone-devops/milkdown-plugin-directive-fallback)
 
     Render all directive as text to avoid parse error when use remark-directive.
+    
+-   [milkdown-plugin-image-picker](https://github.com/LittleSound/milkdown-plugin-image-picker)
+
+    Add support for select and upload pictures from file picker.
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
