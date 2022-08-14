@@ -53,7 +53,7 @@ Milkdown provides the following official plugins:
 
     Use milkdown as editor of markdown files.
     
--   [margin note](https://www.marginnote.com/)
+-   [marginnote](https://www.marginnote.com/)
 
     A brand new e-reader to better study and digest your books.
 
