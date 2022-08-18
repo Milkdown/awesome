@@ -53,9 +53,9 @@ Milkdown provides the following official plugins:
 
     Use milkdown as editor of markdown files.
     
--   [marginnote](https://www.marginnote.com/)
+-   [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown)
 
-    A brand new e-reader to better study and digest your books.
+    Use milkdown as markdown editor of [MarginNote](https://www.marginnote.com/), it's made by the official of MarginNote. MarginNote is a brand new e-reader to better study and digest your books.
 
 -   [nayu](https://nayu.xyz/)
 
