@@ -40,6 +40,10 @@ Milkdown provides the following official plugins:
 
     Add support for select and upload pictures from file picker.
 
+-   [milkdown-plugin-placeholder](https://github.com/HexMox/milkdown-plugin-placeholder)
+
+    🌈 Placeholder plugin for milkdown.
+
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
 
