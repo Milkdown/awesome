@@ -84,3 +84,7 @@ Milkdown provides the following official plugins:
 -   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
 
     Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
+
+-   [typelog](https://typelog.dev)
+
+    Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
