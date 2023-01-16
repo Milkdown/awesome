@@ -43,6 +43,10 @@ Milkdown provides the following official plugins:
 -   [milkdown-plugin-placeholder](https://github.com/HexMox/milkdown-plugin-placeholder)
 
     🌈 Placeholder plugin for milkdown.
+    
+-   [@milkdown-lab/plugin-split-editing](https://www.npmjs.com/package/@milkdown-lab/plugin-split-editing)
+
+    Show split editing view for milkdown.
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
