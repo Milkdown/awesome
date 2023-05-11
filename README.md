@@ -47,6 +47,10 @@ Milkdown provides the following official plugins:
 -   [@milkdown-lab/plugin-split-editing](https://www.npmjs.com/package/@milkdown-lab/plugin-split-editing)
 
     Show split editing view for milkdown.
+    
+-   [milkdown-lab](https://github.com/enpitsuLin/milkdown-lab)
+
+    Unofficial plugins collection for milkdown.
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
@@ -65,7 +69,7 @@ Milkdown provides the following official plugins:
 
     Use milkdown as markdown editor of [MarginNote](https://www.marginnote.com/), it's made by the official of MarginNote. MarginNote is a brand new e-reader to better study and digest your books.
 
--   [nayu](https://nayu.xyz/)
+-   [lactose](https://github.com/lactoseapp/lactose)
 
     A web based note-taking tool.
 
