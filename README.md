@@ -51,6 +51,11 @@ Milkdown provides the following official plugins:
 -   [milkdown-lab](https://github.com/enpitsuLin/milkdown-lab)
 
     Unofficial plugins collection for milkdown.
+  
+-   [coditor](https://github.com/jiannei/coditor)
+
+    Another unofficial plugins collection for milkdown, including placeholder、shiki、remoteUploader, etc.
+
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
