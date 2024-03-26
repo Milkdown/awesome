@@ -35,6 +35,10 @@ Milkdown provides the following official plugins:
 -   [@ezone-devops/milkdown-plugin-directive-fallback](https://www.npmjs.com/package/@ezone-devops/milkdown-plugin-directive-fallback)
 
     Render all directive as text to avoid parse error when use remark-directive.
+
+-   [zgrybus/milkdown-mentions-plugin](https://github.com/zgrybus/milkdown-mentions-plugin)
+
+    Plugin that allows you to mentions people and transform it into links.
     
 -   [milkdown-plugin-image-picker](https://github.com/LittleSound/milkdown-plugin-image-picker)
 
