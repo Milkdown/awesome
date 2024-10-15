@@ -105,3 +105,7 @@ Milkdown provides the following official plugins:
 -   [typelog](https://typelog.dev)
 
     Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
+
+-   [type.](https://type.baby) ([repo](https://github.com/qurle/))
+
+    Local-first zen editor with imports, exports and publishing. 
