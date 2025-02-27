@@ -60,6 +60,10 @@ Milkdown provides the following official plugins:
 
     Another unofficial plugins collection for milkdown, including placeholder、shiki、remoteUploader, etc.
 
+-   [milkdown-plugin-file](https://github.com/omarmir/milkdown-plugin-file)
+
+    Unofficial Milkdown plugin that adds remark directive support and prosemirror component to handle file uploads.
+
 
 ## Apps & Integrations
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
