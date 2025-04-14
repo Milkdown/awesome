@@ -20,6 +20,60 @@ Milkdown provides the following official plugins:
 | [@milkdown/plugin-indent](https://www.npmjs.com/package/@milkdown/plugin-indent)               | Add tab indent support                                                 |
 | [@milkdown/plugin-upload](https://www.npmjs.com/package/@milkdown/plugin-upload)               | Add drop and upload support                                            |
 
+## Who's using
+
+-   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
+
+    Use milkdown as markdown editor of VSCode.
+
+-   [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)
+
+    A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems
+
+-   [oracle livesql](https://livesql.oracle.com/landing/)
+
+    Get instant access to the Oracle Database and learn from a collection of community scripts and tutorials.
+
+-   [standardnotes](https://github.com/standardnotes/app)
+
+    Use milkdown as editor of [Standard Notes](https://standardnotes.com/), it's made by the official of standardnotes.
+
+-   [tagspaces](https://www.tagspaces.org/)
+
+    Use milkdown as editor of markdown files.
+    
+-   [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown)
+
+    Use milkdown as markdown editor of [MarginNote](https://www.marginnote.com/), it's made by the official of MarginNote. MarginNote is a brand new e-reader to better study and digest your books.
+
+-   [lactose](https://github.com/lactoseapp/lactose)
+
+    A web based note-taking tool.
+
+-   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
+
+    A magical vite plugin that helps you to generate and manage documentation website.
+
+-   [Howdz Dashboard](https://github.com/leon-kfd/Dashboard)
+
+    Custom your personal browser start page from some configurable components.
+    
+-   [Doclea](https://github.com/FalkZ/doclea)
+
+    Online doc editor.
+    
+-   [ezone](https://ezone.work/)
+
+    一站式云原生企业研发协同与效能平台.
+    
+-   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
+
+    Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
+
+-   [typelog](https://typelog.dev)
+
+    Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
+
 ## Community Plugins
 
 -   [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki)
@@ -63,54 +117,7 @@ Milkdown provides the following official plugins:
     Unofficial Milkdown plugin that adds remark directive support and prosemirror component to handle file uploads.
 
 
-## Apps & Integrations
--   [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)
 
-    A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems
-
--   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
-
-    Use milkdown as markdown editor of VSCode.
-    
--   [standardnotes](https://github.com/standardnotes/app)
-
-    Use milkdown as editor of [Standard Notes](https://standardnotes.com/), it's made by the official of standardnotes.
-
--   [tagspaces](https://www.tagspaces.org/)
-
-    Use milkdown as editor of markdown files.
-    
--   [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown)
-
-    Use milkdown as markdown editor of [MarginNote](https://www.marginnote.com/), it's made by the official of MarginNote. MarginNote is a brand new e-reader to better study and digest your books.
-
--   [lactose](https://github.com/lactoseapp/lactose)
-
-    A web based note-taking tool.
-
--   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
-
-    A magical vite plugin that helps you to generate and manage documentation website.
-
--   [Howdz Dashboard](https://github.com/leon-kfd/Dashboard)
-
-    Custom your personal browser start page from some configurable components.
-    
--   [Doclea](https://github.com/FalkZ/doclea)
-
-    Online doc editor.
-    
--   [ezone](https://ezone.work/)
-
-    一站式云原生企业研发协同与效能平台.
-    
--   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
-
-    Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
-
--   [typelog](https://typelog.dev)
-
-    Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
 
 -   [type.](https://type.baby) ([repo](https://github.com/qurle/))
 
