@@ -14,11 +14,9 @@ Milkdown provides the following official plugins:
 | [@milkdown/plugin-listener](https://www.npmjs.com/package/@milkdown/plugin-listener)           | Add listener support                                                   |
 | [@milkdown/plugin-collaborative](https://www.npmjs.com/package/@milkdown/plugin-collaborative) | Add collaborative editing support                                      |
 | [@milkdown/plugin-prism](https://www.npmjs.com/package/@milkdown/plugin-prism)                 | Add [prism](https://prismjs.com/) support for code block highlight     |
-| [@milkdown/plugin-math](https://www.npmjs.com/package/@milkdown/plugin-math)                   | Add [LaTeX](https://en.wikipedia.org/wiki/LaTeX) support for math      |
 | [@milkdown/plugin-tooltip](https://www.npmjs.com/package/@milkdown/plugin-tooltip)             | Add selected tooltip for text                                          |
 | [@milkdown/plugin-slash](https://www.npmjs.com/package/@milkdown/plugin-slash)                 | Add slash commands support                                             |
 | [@milkdown/plugin-emoji](https://www.npmjs.com/package/@milkdown/plugin-emoji)                 | Add emoji support                                                      |
-| [@milkdown/plugin-diagram](https://www.npmjs.com/package/@milkdown/plugin-diagram)             | Add [mermaid](https://mermaid-js.github.io/mermaid/#/) diagram support |
 | [@milkdown/plugin-indent](https://www.npmjs.com/package/@milkdown/plugin-indent)               | Add tab indent support                                                 |
 | [@milkdown/plugin-upload](https://www.npmjs.com/package/@milkdown/plugin-upload)               | Add drop and upload support                                            |
 
@@ -66,6 +64,10 @@ Milkdown provides the following official plugins:
 
 
 ## Apps & Integrations
+-   [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)
+
+    A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems
+
 -   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
 
     Use milkdown as markdown editor of VSCode.
