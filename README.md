@@ -74,6 +74,10 @@ Milkdown provides the following official plugins:
 
     Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
 
+-   [GeekDown](https://github.com/fearlessgeekmedia/GeekDown)
+
+    A desktop markdown editor powered by Milkdown
+
 ## Community Plugins
 
 -   [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki)
