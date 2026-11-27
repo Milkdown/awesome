@@ -4,14 +4,32 @@
 
 [Website](https://milkdown.dev) · [GitHub](https://github.com/Milkdown/milkdown) · [Playground](https://milkdown.dev/playground)
 
+<p align="center"><sub><b>USED IN PROJECTS FROM</b></sub></p>
+
+<p align="center">
+  <a href="#microsoft"><img src="assets/logos/microsoft.svg#gh-light-mode-only" alt="Microsoft" height="32"><img src="assets/logos/microsoft-dark.svg#gh-dark-mode-only" alt="Microsoft" height="32"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#google-cloud"><img src="assets/logos/google-cloud.svg#gh-light-mode-only" alt="Google Cloud" height="26"><img src="assets/logos/google-cloud-dark.svg#gh-dark-mode-only" alt="Google Cloud" height="26"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#tencent"><img src="assets/logos/tencent.svg#gh-light-mode-only" alt="Tencent" height="22"><img src="assets/logos/tencent-dark.svg#gh-dark-mode-only" alt="Tencent" height="22"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#oracle"><img src="assets/logos/oracle.svg" alt="Oracle" height="18"></a>
+</p>
+
+<p align="center">
+  <a href="#standard-notes"><img src="assets/logos/standard-notes.svg" alt="Standard Notes" height="30"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#teable"><img src="assets/logos/teable.png#gh-light-mode-only" alt="Teable" height="44"><img src="assets/logos/teable-dark.png#gh-dark-mode-only" alt="Teable" height="44"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#marginnote"><img src="assets/logos/marginnote.svg#gh-light-mode-only" alt="MarginNote" height="32"><img src="assets/logos/marginnote-dark.svg#gh-dark-mode-only" alt="MarginNote" height="32"></a>
+</p>
+
 ## Contents
 
 - [Official Packages](#official-packages)
 - [Who's Using Milkdown](#whos-using-milkdown)
-  - [AI & Agents](#ai--agents)
-  - [Productivity & Data](#productivity--data)
-  - [Markdown Editors & Note-Taking](#markdown-editors--note-taking)
-  - [Other](#other)
+  - [Notable Organizations](#notable-organizations)
+  - [More Projects](#more-projects)
 - [Community Plugins & Integrations](#community-plugins--integrations)
 - [Contributing](#contributing)
 
@@ -62,31 +80,40 @@ All official packages live in the [Milkdown monorepo](https://github.com/Milkdow
 
 ## Who's Using Milkdown
 
-### AI & Agents
+### Notable Organizations
 
-- [Huabu](https://github.com/microsoft/Huabu) by Microsoft - An infinite canvas where you and your agents think together. Notes and AI chat messages are edited with Crepe, and you can drag their blocks out onto the canvas.
-- [TypeAgent](https://github.com/microsoft/TypeAgent) by Microsoft - Sample code for a personal agent that works with application agents. Its markdown agent runs a Crepe editor synced over Yjs with `@milkdown/plugin-collab`, so you and the AI edit the same document.
-- [Scion](https://github.com/GoogleCloudPlatform/scion) by Google Cloud - An open-source orchestration platform for teams of AI agents. The Hub web UI uses Milkdown to review Markdown artifacts that agents publish, with suggestion and comment marks.
+- <a name="microsoft"></a>**Microsoft**
+  - [Huabu](https://github.com/microsoft/Huabu) - An infinite canvas where you and your agents think together. Notes and AI chat messages are edited with Crepe, and you can drag their blocks out onto the canvas.
+  - [TypeAgent](https://github.com/microsoft/TypeAgent) - Sample code for a personal agent that works with application agents. Its markdown agent runs a Crepe editor synced over Yjs with `@milkdown/plugin-collab`, so you and the AI edit the same document.
+- <a name="google-cloud"></a>**Google Cloud**
+  - [Scion](https://github.com/GoogleCloudPlatform/scion) - An open-source orchestration platform for teams of AI agents. The Hub web UI uses Milkdown to review Markdown artifacts that agents publish, with suggestion and comment marks.
+- <a name="tencent"></a>**Tencent**
+  - [cherry-markdown](https://github.com/Tencent/cherry-markdown) - A Markdown editor. Its WYSIWYG mode, published as [@cherry-markdown/milkdown](https://www.npmjs.com/package/@cherry-markdown/milkdown), is built on Milkdown and reuses Cherry's parser, rendering and themes. The Cherry desktop client uses it too.
+- <a name="oracle"></a>**Oracle**
+  - [LiveSQL](https://livesql.oracle.com/landing/) - Instant access to Oracle Database, plus a collection of community scripts and tutorials.
+- <a name="standard-notes"></a>**Standard Notes**
+  - [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes app. Its official Markdown editor is built with Milkdown.
+- <a name="teable"></a>**Teable**
+  - [Teable](https://github.com/teableio/teable) - AI spreadsheet for business, and a no-code Airtable alternative built on Postgres. Long text fields are edited with Milkdown.
+- <a name="marginnote"></a>**MarginNote**
+  - [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown) - The official Markdown editor of [MarginNote](https://www.marginnote.com/), an e-reader for studying and digesting books.
 
-### Productivity & Data
+### More Projects
 
-- [Teable](https://github.com/teableio/teable) - AI spreadsheet for business, and a no-code Airtable alternative built on Postgres. Long text fields are edited with Milkdown.
-- [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes app. Its official Markdown editor is built with Milkdown.
-- [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown) - The official Markdown editor of [MarginNote](https://www.marginnote.com/), an e-reader for studying and digesting books.
+#### Productivity & Data
+
 - [TagSpaces](https://www.tagspaces.org/) - An offline, open-source file manager with tagging. Uses Milkdown to edit Markdown files.
-- [Oracle LiveSQL](https://livesql.oracle.com/landing/) - Instant access to Oracle Database, plus a collection of community scripts and tutorials.
 - [ezone](https://ezone.work/) - 一站式云原生企业研发协同与效能平台 (an all-in-one, cloud-native R&D collaboration platform).
 
-### Markdown Editors & Note-Taking
+#### Markdown Editors & Note-Taking
 
-- [cherry-markdown](https://github.com/Tencent/cherry-markdown) by Tencent - A Markdown editor. Its WYSIWYG mode, published as [@cherry-markdown/milkdown](https://www.npmjs.com/package/@cherry-markdown/milkdown), is built on Milkdown and reuses Cherry's parser, rendering and themes. The Cherry desktop client uses it too.
 - [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode) - Milkdown as the Markdown editor in VS Code.
 - [GeekDown](https://github.com/fearlessgeekmedia/GeekDown) - A desktop Markdown editor powered by Milkdown.
 - [type.](https://type.qurle.net) ([repo](https://github.com/qurle/type)) - A local-first zen editor with import, export and publishing.
 - [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown) - A community Milkdown editor for [Standard Notes](https://standardnotes.com/).
 - [Doclea](https://github.com/FalkZ/doclea) - An online document editor.
 
-### Other
+#### Other
 
 - [typelog](https://typelog.dev) - A microblogging platform for developers. Posts and comments are written with Milkdown.
 - [Howdz Dashboard](https://github.com/leon-kfd/Dashboard) - A browser start page built from configurable components.
@@ -114,3 +141,5 @@ Using Milkdown in your project, or built a plugin? Open a pull request that adds
 ```md
 - [Name](link) - What it is, and how it uses Milkdown.
 ```
+
+Organizations under [Notable Organizations](#notable-organizations) also appear in the logo wall at the top. If you represent one of them and want your logo updated or removed, please open an issue.
