@@ -1,128 +1,116 @@
 # awesome-milkdown
-🍼 A curated list of awesome things related to Milkdown
 
-## Official Plugins
+🍼 A curated list of awesome things related to [Milkdown](https://milkdown.dev), the plugin-driven WYSIWYG Markdown editor framework.
 
-Milkdown provides the following official plugins:
-| name                                                                                           | description                                                            |
-| :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
-| [@milkdown/preset-commonmark](https://www.npmjs.com/package/@milkdown/preset-commonmark)       | Add [commonmark](https://commonmark.org/) syntax support               |
-| [@milkdown/preset-gfm](https://www.npmjs.com/package/@milkdown/preset-gfm)                     | Add [gfm](https://github.github.com/gfm/) syntax support               |
-| [@milkdown/plugin-history](https://www.npmjs.com/package/@milkdown/plugin-history)             | Add undo & redo support                                                |
-| [@milkdown/plugin-clipboard](https://www.npmjs.com/package/@milkdown/plugin-clipboard)         | Add markdown copy & paste support                                      |
-| [@milkdown/plugin-cursor](https://www.npmjs.com/package/@milkdown/plugin-cursor)               | Add drop & gap cursor                                                  |
-| [@milkdown/plugin-listener](https://www.npmjs.com/package/@milkdown/plugin-listener)           | Add listener support                                                   |
-| [@milkdown/plugin-collaborative](https://www.npmjs.com/package/@milkdown/plugin-collaborative) | Add collaborative editing support                                      |
-| [@milkdown/plugin-prism](https://www.npmjs.com/package/@milkdown/plugin-prism)                 | Add [prism](https://prismjs.com/) support for code block highlight     |
-| [@milkdown/plugin-tooltip](https://www.npmjs.com/package/@milkdown/plugin-tooltip)             | Add selected tooltip for text                                          |
-| [@milkdown/plugin-slash](https://www.npmjs.com/package/@milkdown/plugin-slash)                 | Add slash commands support                                             |
-| [@milkdown/plugin-emoji](https://www.npmjs.com/package/@milkdown/plugin-emoji)                 | Add emoji support                                                      |
-| [@milkdown/plugin-indent](https://www.npmjs.com/package/@milkdown/plugin-indent)               | Add tab indent support                                                 |
-| [@milkdown/plugin-upload](https://www.npmjs.com/package/@milkdown/plugin-upload)               | Add drop and upload support                                            |
+[Website](https://milkdown.dev) · [GitHub](https://github.com/Milkdown/milkdown) · [Playground](https://milkdown.dev/playground)
 
-## Who's using
+## Contents
 
--   [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)
+- [Official Packages](#official-packages)
+- [Who's Using Milkdown](#whos-using-milkdown)
+  - [AI & Agents](#ai--agents)
+  - [Productivity & Data](#productivity--data)
+  - [Markdown Editors & Note-Taking](#markdown-editors--note-taking)
+  - [Other](#other)
+- [Community Plugins & Integrations](#community-plugins--integrations)
+- [Contributing](#contributing)
 
-    Use milkdown as markdown editor of VSCode.
+## Official Packages
 
--   [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)
+All official packages live in the [Milkdown monorepo](https://github.com/Milkdown/milkdown/tree/main/packages).
 
-    A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems
+### Getting Started
 
--   [oracle livesql](https://livesql.oracle.com/landing/)
+| name                                                             | description                                                                      |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| [@milkdown/crepe](https://www.npmjs.com/package/@milkdown/crepe) | Ready-to-use editor with toolbar, slash menu, tables, LaTeX and more. Start here |
+| [@milkdown/kit](https://www.npmjs.com/package/@milkdown/kit)     | An all-in-one package that re-exports core, presets, plugins and components      |
+| [@milkdown/react](https://www.npmjs.com/package/@milkdown/react) | React integration                                                                |
+| [@milkdown/vue](https://www.npmjs.com/package/@milkdown/vue)     | Vue integration                                                                  |
 
-    Get instant access to the Oracle Database and learn from a collection of community scripts and tutorials.
+### Core
 
--   [standardnotes](https://github.com/standardnotes/app)
+| name                                                                       | description                                                                |
+| :------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| [@milkdown/core](https://www.npmjs.com/package/@milkdown/core)             | The editor kernel                                                          |
+| [@milkdown/components](https://www.npmjs.com/package/@milkdown/components) | Prebuilt UI components: code block, image block, link tooltip, table, etc. |
+| [@milkdown/theme-nord](https://www.npmjs.com/package/@milkdown/theme-nord) | A [Nord](https://www.nordtheme.com/) theme                                 |
 
-    Use milkdown as editor of [Standard Notes](https://standardnotes.com/), it's made by the official of standardnotes.
+### Presets & Plugins
 
--   [tagspaces](https://www.tagspaces.org/)
+| name                                                                                     | description                                                                    |
+| :--------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
+| [@milkdown/preset-commonmark](https://www.npmjs.com/package/@milkdown/preset-commonmark) | Adds [CommonMark](https://commonmark.org/) syntax support                      |
+| [@milkdown/preset-gfm](https://www.npmjs.com/package/@milkdown/preset-gfm)               | Adds [GFM](https://github.github.com/gfm/) syntax support                      |
+| [@milkdown/plugin-history](https://www.npmjs.com/package/@milkdown/plugin-history)       | Undo & redo                                                                    |
+| [@milkdown/plugin-clipboard](https://www.npmjs.com/package/@milkdown/plugin-clipboard)   | Markdown copy & paste                                                          |
+| [@milkdown/plugin-listener](https://www.npmjs.com/package/@milkdown/plugin-listener)     | Listen to editor events such as `markdownUpdated`                              |
+| [@milkdown/plugin-collab](https://www.npmjs.com/package/@milkdown/plugin-collab)         | Real-time collaborative editing with [Yjs](https://yjs.dev/)                   |
+| [@milkdown/plugin-streaming](https://www.npmjs.com/package/@milkdown/plugin-streaming)   | Streams AI-generated Markdown into the document chunk by chunk                 |
+| [@milkdown/plugin-diff](https://www.npmjs.com/package/@milkdown/plugin-diff)             | Diff review: compare two documents and accept or reject changes chunk by chunk |
+| [@milkdown/plugin-block](https://www.npmjs.com/package/@milkdown/plugin-block)           | Block handle for dragging and operating on blocks                              |
+| [@milkdown/plugin-slash](https://www.npmjs.com/package/@milkdown/plugin-slash)           | Slash command menus                                                            |
+| [@milkdown/plugin-tooltip](https://www.npmjs.com/package/@milkdown/plugin-tooltip)       | Tooltips, e.g. a toolbar on text selection                                     |
+| [@milkdown/plugin-automd](https://www.npmjs.com/package/@milkdown/plugin-automd)         | Turns inline Markdown syntax into formatting as you type                       |
+| [@milkdown/plugin-highlight](https://www.npmjs.com/package/@milkdown/plugin-highlight)   | Code block highlighting with Shiki, lowlight, refractor or sugar-high          |
+| [@milkdown/plugin-prism](https://www.npmjs.com/package/@milkdown/plugin-prism)           | Code block highlighting with [Prism](https://prismjs.com/)                     |
+| [@milkdown/plugin-cursor](https://www.npmjs.com/package/@milkdown/plugin-cursor)         | Drop cursor & gap cursor                                                       |
+| [@milkdown/plugin-trailing](https://www.npmjs.com/package/@milkdown/plugin-trailing)     | Keeps an empty paragraph at the end of the document                            |
+| [@milkdown/plugin-emoji](https://www.npmjs.com/package/@milkdown/plugin-emoji)           | Emoji support                                                                  |
+| [@milkdown/plugin-indent](https://www.npmjs.com/package/@milkdown/plugin-indent)         | Tab indentation                                                                |
+| [@milkdown/plugin-upload](https://www.npmjs.com/package/@milkdown/plugin-upload)         | Drop & upload files                                                            |
 
-    Use milkdown as editor of markdown files.
-    
--   [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown)
+## Who's Using Milkdown
 
-    Use milkdown as markdown editor of [MarginNote](https://www.marginnote.com/), it's made by the official of MarginNote. MarginNote is a brand new e-reader to better study and digest your books.
+### AI & Agents
 
--   [lactose](https://github.com/lactoseapp/lactose)
+- [Huabu](https://github.com/microsoft/Huabu) by Microsoft - An infinite canvas where you and your agents think together. Notes and AI chat messages are edited with Crepe, and you can drag their blocks out onto the canvas.
+- [TypeAgent](https://github.com/microsoft/TypeAgent) by Microsoft - Sample code for a personal agent that works with application agents. Its markdown agent runs a Crepe editor synced over Yjs with `@milkdown/plugin-collab`, so you and the AI edit the same document.
+- [Scion](https://github.com/GoogleCloudPlatform/scion) by Google Cloud - An open-source orchestration platform for teams of AI agents. The Hub web UI uses Milkdown to review Markdown artifacts that agents publish, with suggestion and comment marks.
 
-    A web based note-taking tool.
+### Productivity & Data
 
--   [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book)
+- [Teable](https://github.com/teableio/teable) - AI spreadsheet for business, and a no-code Airtable alternative built on Postgres. Long text fields are edited with Milkdown.
+- [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes app. Its official Markdown editor is built with Milkdown.
+- [MarginNote-Milkdown](https://github.com/marginnoteapp/milkdown) - The official Markdown editor of [MarginNote](https://www.marginnote.com/), an e-reader for studying and digesting books.
+- [TagSpaces](https://www.tagspaces.org/) - An offline, open-source file manager with tagging. Uses Milkdown to edit Markdown files.
+- [Oracle LiveSQL](https://livesql.oracle.com/landing/) - Instant access to Oracle Database, plus a collection of community scripts and tutorials.
+- [ezone](https://ezone.work/) - 一站式云原生企业研发协同与效能平台 (an all-in-one, cloud-native R&D collaboration platform).
 
-    A magical vite plugin that helps you to generate and manage documentation website.
+### Markdown Editors & Note-Taking
 
--   [Howdz Dashboard](https://github.com/leon-kfd/Dashboard)
+- [cherry-markdown](https://github.com/Tencent/cherry-markdown) by Tencent - A Markdown editor. Its WYSIWYG mode, published as [@cherry-markdown/milkdown](https://www.npmjs.com/package/@cherry-markdown/milkdown), is built on Milkdown and reuses Cherry's parser, rendering and themes. The Cherry desktop client uses it too.
+- [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode) - Milkdown as the Markdown editor in VS Code.
+- [GeekDown](https://github.com/fearlessgeekmedia/GeekDown) - A desktop Markdown editor powered by Milkdown.
+- [type.](https://type.qurle.net) ([repo](https://github.com/qurle/type)) - A local-first zen editor with import, export and publishing.
+- [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown) - A community Milkdown editor for [Standard Notes](https://standardnotes.com/).
+- [Doclea](https://github.com/FalkZ/doclea) - An online document editor.
 
-    Custom your personal browser start page from some configurable components.
-    
--   [Doclea](https://github.com/FalkZ/doclea)
+### Other
 
-    Online doc editor.
-    
--   [ezone](https://ezone.work/)
+- [typelog](https://typelog.dev) - A microblogging platform for developers. Posts and comments are written with Milkdown.
+- [Howdz Dashboard](https://github.com/leon-kfd/Dashboard) - A browser start page built from configurable components.
+- [vite-plugin-book](https://github.com/Saul-Mirone/vite-plugin-book) - A Vite plugin that generates and manages documentation websites. _(archived)_
 
-    一站式云原生企业研发协同与效能平台.
-    
--   [standardnotes-milkdown](https://github.com/chuangzhu/standardnotes-milkdown)
+## Community Plugins & Integrations
 
-    Use milkdown as editor of [Standard Notes](https://standardnotes.com/).
+- [@cherry-markdown/milkdown](https://www.npmjs.com/package/@cherry-markdown/milkdown) - A WYSIWYG Milkdown editor that uses Cherry Markdown's parsing and themes, with ECharts, Mermaid and math renderers.
+- [milkdown-plugin-file](https://github.com/omarmir/milkdown-plugin-file) - Adds remark directive support and a ProseMirror component for file uploads.
+- [milkdown-mentions-plugin](https://github.com/zgrybus/milkdown-mentions-plugin) - Mention people and turn the mentions into links.
+- [milkdown-plugin-image-picker](https://github.com/LittleSound/milkdown-plugin-image-picker) - Select and upload images from a file picker.
+- [milkdown-plugin-placeholder](https://github.com/HexMox/milkdown-plugin-placeholder) - 🌈 A placeholder plugin.
+- [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki) - Code block highlighting with [Shiki](https://shiki.style/).
+- [@ezone-devops/milkdown-plugin-directive-fallback](https://www.npmjs.com/package/@ezone-devops/milkdown-plugin-directive-fallback) - Renders every directive as text, which avoids parse errors when using remark-directive.
+- [@star-dancer/milkdown](https://www.npmjs.com/package/@star-dancer/milkdown) - Angular integration.
+- [coditor](https://github.com/jiannei/coditor) - A collection of unofficial plugins, including placeholder, Shiki and a remote uploader.
+- [milkdown-lab](https://github.com/enpitsuLin/milkdown-lab) - A collection of unofficial plugins, including [split editing](https://www.npmjs.com/package/@milkdown-lab/plugin-split-editing). _(archived)_
 
--   [typelog](https://typelog.dev)
+> Some community plugins were written for Milkdown v6 or earlier v7 releases. Check compatibility before using them.
 
-    Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
+## Contributing
 
--   [GeekDown](https://github.com/fearlessgeekmedia/GeekDown)
+Using Milkdown in your project, or built a plugin? Open a pull request that adds it to the right section, in this format:
 
-    A desktop markdown editor powered by Milkdown
-
-## Community Plugins
-
--   [milkdown-plugin-shiki](https://www.npmjs.com/package/milkdown-plugin-shiki)
-
-    Add [shiki](https://shiki.matsu.io/) support for code block highlight.
-    
--   [@star-dancer/milkdown](https://www.npmjs.com/package/@star-dancer/milkdown)
-
-    Angular integration for milkdown.
-
--   [@ezone-devops/milkdown-plugin-directive-fallback](https://www.npmjs.com/package/@ezone-devops/milkdown-plugin-directive-fallback)
-
-    Render all directive as text to avoid parse error when use remark-directive.
-
--   [zgrybus/milkdown-mentions-plugin](https://github.com/zgrybus/milkdown-mentions-plugin)
-
-    Plugin that allows you to mentions people and transform it into links.
-    
--   [milkdown-plugin-image-picker](https://github.com/LittleSound/milkdown-plugin-image-picker)
-
-    Add support for select and upload pictures from file picker.
-
--   [milkdown-plugin-placeholder](https://github.com/HexMox/milkdown-plugin-placeholder)
-
-    🌈 Placeholder plugin for milkdown.
-    
--   [@milkdown-lab/plugin-split-editing](https://www.npmjs.com/package/@milkdown-lab/plugin-split-editing)
-
-    Show split editing view for milkdown.
-    
--   [milkdown-lab](https://github.com/enpitsuLin/milkdown-lab)
-
-    Unofficial plugins collection for milkdown.
-  
--   [coditor](https://github.com/jiannei/coditor)
-
-    Another unofficial plugins collection for milkdown, including placeholder、shiki、remoteUploader, etc.
-
--   [milkdown-plugin-file](https://github.com/omarmir/milkdown-plugin-file)
-
-    Unofficial Milkdown plugin that adds remark directive support and prosemirror component to handle file uploads.
-
-
-
-
--   [type.](https://type.baby) ([repo](https://github.com/qurle/))
-
-    Local-first zen editor with imports, exports and publishing. 
+```md
+- [Name](link) - What it is, and how it uses Milkdown.
+```
