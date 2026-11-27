@@ -17,8 +17,6 @@
 </p>
 
 <p align="center">
-  <a href="#standard-notes"><img src="assets/logos/standard-notes.svg" alt="Standard Notes" height="30"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#teable"><img src="assets/logos/teable.svg" alt="Teable" height="44"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#marginnote"><img src="assets/logos/marginnote.svg" alt="MarginNote" height="32"></a>
@@ -91,8 +89,6 @@ All official packages live in the [Milkdown monorepo](https://github.com/Milkdow
   - [cherry-markdown](https://github.com/Tencent/cherry-markdown) - A Markdown editor. Its WYSIWYG mode, published as [@cherry-markdown/milkdown](https://www.npmjs.com/package/@cherry-markdown/milkdown), is built on Milkdown and reuses Cherry's parser, rendering and themes. The Cherry desktop client uses it too.
 - <a name="oracle"></a>**Oracle**
   - [LiveSQL](https://livesql.oracle.com/landing/) - Instant access to Oracle Database, plus a collection of community scripts and tutorials.
-- <a name="standard-notes"></a>**Standard Notes**
-  - [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes app. Its official Markdown editor is built with Milkdown.
 - <a name="teable"></a>**Teable**
   - [Teable](https://github.com/teableio/teable) - AI spreadsheet for business, and a no-code Airtable alternative built on Postgres. Long text fields are edited with Milkdown.
 - <a name="marginnote"></a>**MarginNote**
@@ -102,6 +98,7 @@ All official packages live in the [Milkdown monorepo](https://github.com/Milkdow
 
 #### Productivity & Data
 
+- [Standard Notes](https://github.com/standardnotes/app) - End-to-end encrypted notes app. Its official Markdown editor is built with Milkdown.
 - [TagSpaces](https://www.tagspaces.org/) - An offline, open-source file manager with tagging. Uses Milkdown to edit Markdown files.
 - [ezone](https://ezone.work/) - 一站式云原生企业研发协同与效能平台 (an all-in-one, cloud-native R&D collaboration platform).
 
