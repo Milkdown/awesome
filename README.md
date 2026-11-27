@@ -7,11 +7,11 @@
 <p align="center"><sub><b>USED IN PROJECTS FROM</b></sub></p>
 
 <p align="center">
-  <a href="#microsoft"><img src="assets/logos/microsoft.svg#gh-light-mode-only" alt="Microsoft" height="32"><img src="assets/logos/microsoft-dark.svg#gh-dark-mode-only" alt="Microsoft" height="32"></a>
+  <a href="#microsoft"><img src="assets/logos/microsoft.svg" alt="Microsoft" height="32"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#google-cloud"><img src="assets/logos/google-cloud.svg#gh-light-mode-only" alt="Google Cloud" height="26"><img src="assets/logos/google-cloud-dark.svg#gh-dark-mode-only" alt="Google Cloud" height="26"></a>
+  <a href="#google-cloud"><img src="assets/logos/google-cloud.svg" alt="Google Cloud" height="26"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#tencent"><img src="assets/logos/tencent.svg#gh-light-mode-only" alt="Tencent" height="22"><img src="assets/logos/tencent-dark.svg#gh-dark-mode-only" alt="Tencent" height="22"></a>
+  <a href="#tencent"><img src="assets/logos/tencent.svg" alt="Tencent" height="22"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#oracle"><img src="assets/logos/oracle.svg" alt="Oracle" height="18"></a>
 </p>
@@ -19,9 +19,9 @@
 <p align="center">
   <a href="#standard-notes"><img src="assets/logos/standard-notes.svg" alt="Standard Notes" height="30"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#teable"><img src="assets/logos/teable.png#gh-light-mode-only" alt="Teable" height="44"><img src="assets/logos/teable-dark.png#gh-dark-mode-only" alt="Teable" height="44"></a>
+  <a href="#teable"><img src="assets/logos/teable.svg" alt="Teable" height="44"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#marginnote"><img src="assets/logos/marginnote.svg#gh-light-mode-only" alt="MarginNote" height="32"><img src="assets/logos/marginnote-dark.svg#gh-dark-mode-only" alt="MarginNote" height="32"></a>
+  <a href="#marginnote"><img src="assets/logos/marginnote.svg" alt="MarginNote" height="32"></a>
 </p>
 
 ## Contents
